@@ -1,0 +1,43 @@
+{
+  "name": "react-pretty-check",
+  "version": "1.0.0",
+  "description": "pretty-check for react",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huruji/react-pretty-check.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huruji/react-pretty-check/issues"
+  },
+  "homepage": "https://github.com/huruji/react-pretty-check#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "rollup": "^1.21.4",
+    "rollup-plugin-scss": "^1.0.2",
+    "rollup-plugin-typescript2": "^0.24.2",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "pretty-checkbox": "^3.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
